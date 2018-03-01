@@ -21,6 +21,11 @@
 		332D143A20484E8700091F17 /* BasicDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D143920484E8700091F17 /* BasicDataSource.swift */; };
 		332D143C20485DFE00091F17 /* MappedCollectionViewCellProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D143B20485DFE00091F17 /* MappedCollectionViewCellProvider.swift */; };
 		332D143E2048752E00091F17 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 332D143D2048752E00091F17 /* LICENSE */; };
+		332D1443204877B400091F17 /* MultiplexedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D143F204877B200091F17 /* MultiplexedDataSource.swift */; };
+		332D1444204877B400091F17 /* UICollectionView+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D1440204877B300091F17 /* UICollectionView+DataSource.swift */; };
+		332D1445204877B400091F17 /* LoadableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D1441204877B300091F17 /* LoadableDataSource.swift */; };
+		332D1446204877B400091F17 /* MultiplexedCollectionViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D1442204877B400091F17 /* MultiplexedCollectionViewDatasource.swift */; };
+		332D1448204878B200091F17 /* DataSourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D1447204878B200091F17 /* DataSourceCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +45,11 @@
 		332D143920484E8700091F17 /* BasicDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicDataSource.swift; sourceTree = "<group>"; };
 		332D143B20485DFE00091F17 /* MappedCollectionViewCellProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappedCollectionViewCellProvider.swift; sourceTree = "<group>"; };
 		332D143D2048752E00091F17 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		332D143F204877B200091F17 /* MultiplexedDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplexedDataSource.swift; sourceTree = "<group>"; };
+		332D1440204877B300091F17 /* UICollectionView+DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+DataSource.swift"; sourceTree = "<group>"; };
+		332D1441204877B300091F17 /* LoadableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadableDataSource.swift; sourceTree = "<group>"; };
+		332D1442204877B400091F17 /* MultiplexedCollectionViewDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplexedCollectionViewDatasource.swift; sourceTree = "<group>"; };
+		332D1447204878B200091F17 /* DataSourceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,10 @@
 				332D142D20484DC000091F17 /* CoreDataDatasource.swift */,
 				332D142B20484DC000091F17 /* DataSource.swift */,
 				332D143B20485DFE00091F17 /* MappedCollectionViewCellProvider.swift */,
+				332D1441204877B300091F17 /* LoadableDataSource.swift */,
+				332D1442204877B400091F17 /* MultiplexedCollectionViewDatasource.swift */,
+				332D143F204877B200091F17 /* MultiplexedDataSource.swift */,
+				332D1440204877B300091F17 /* UICollectionView+DataSource.swift */,
 				332D141920484D9F00091F17 /* AppDelegate.swift */,
 				332D141B20484D9F00091F17 /* ViewController.swift */,
 				332D141D20484D9F00091F17 /* Main.storyboard */,
@@ -87,6 +101,7 @@
 				332D142220484D9F00091F17 /* LaunchScreen.storyboard */,
 				332D142520484D9F00091F17 /* Info.plist */,
 				332D143D2048752E00091F17 /* LICENSE */,
+				332D1447204878B200091F17 /* DataSourceCell.swift */,
 			);
 			path = ComposableCollectionViews;
 			sourceTree = "<group>";
@@ -166,14 +181,19 @@
 			files = (
 				332D143320484DC100091F17 /* ComposedDataSource.swift in Sources */,
 				332D143220484DC100091F17 /* DataSource.swift in Sources */,
+				332D1448204878B200091F17 /* DataSourceCell.swift in Sources */,
 				332D143720484DC100091F17 /* ComposedDataSourceMapping.swift in Sources */,
 				332D143820484DC100091F17 /* CollectionViewDataSource.swift in Sources */,
 				332D143C20485DFE00091F17 /* MappedCollectionViewCellProvider.swift in Sources */,
+				332D1444204877B400091F17 /* UICollectionView+DataSource.swift in Sources */,
 				332D143420484DC100091F17 /* CoreDataDatasource.swift in Sources */,
 				332D141C20484D9F00091F17 /* ViewController.swift in Sources */,
+				332D1445204877B400091F17 /* LoadableDataSource.swift in Sources */,
+				332D1446204877B400091F17 /* MultiplexedCollectionViewDatasource.swift in Sources */,
 				332D143A20484E8700091F17 /* BasicDataSource.swift in Sources */,
 				332D141A20484D9F00091F17 /* AppDelegate.swift in Sources */,
 				332D143520484DC100091F17 /* BridgedCollectionViewDataSource.swift in Sources */,
+				332D1443204877B400091F17 /* MultiplexedDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
