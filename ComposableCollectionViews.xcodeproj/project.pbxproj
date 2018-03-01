@@ -12,6 +12,15 @@
 		332D141F20484D9F00091F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332D141D20484D9F00091F17 /* Main.storyboard */; };
 		332D142120484D9F00091F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332D142020484D9F00091F17 /* Assets.xcassets */; };
 		332D142420484D9F00091F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332D142220484D9F00091F17 /* LaunchScreen.storyboard */; };
+		332D143220484DC100091F17 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D142B20484DC000091F17 /* DataSource.swift */; };
+		332D143320484DC100091F17 /* ComposedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D142C20484DC000091F17 /* ComposedDataSource.swift */; };
+		332D143420484DC100091F17 /* CoreDataDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D142D20484DC000091F17 /* CoreDataDatasource.swift */; };
+		332D143520484DC100091F17 /* BridgedCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D142E20484DC000091F17 /* BridgedCollectionViewDataSource.swift */; };
+		332D143720484DC100091F17 /* ComposedDataSourceMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D143020484DC000091F17 /* ComposedDataSourceMapping.swift */; };
+		332D143820484DC100091F17 /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D143120484DC100091F17 /* CollectionViewDataSource.swift */; };
+		332D143A20484E8700091F17 /* BasicDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D143920484E8700091F17 /* BasicDataSource.swift */; };
+		332D143C20485DFE00091F17 /* MappedCollectionViewCellProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D143B20485DFE00091F17 /* MappedCollectionViewCellProvider.swift */; };
+		332D143E2048752E00091F17 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 332D143D2048752E00091F17 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		332D142020484D9F00091F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		332D142320484D9F00091F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		332D142520484D9F00091F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		332D142B20484DC000091F17 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		332D142C20484DC000091F17 /* ComposedDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposedDataSource.swift; sourceTree = "<group>"; };
+		332D142D20484DC000091F17 /* CoreDataDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataDatasource.swift; sourceTree = "<group>"; };
+		332D142E20484DC000091F17 /* BridgedCollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgedCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		332D143020484DC000091F17 /* ComposedDataSourceMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposedDataSourceMapping.swift; sourceTree = "<group>"; };
+		332D143120484DC100091F17 /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
+		332D143920484E8700091F17 /* BasicDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicDataSource.swift; sourceTree = "<group>"; };
+		332D143B20485DFE00091F17 /* MappedCollectionViewCellProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappedCollectionViewCellProvider.swift; sourceTree = "<group>"; };
+		332D143D2048752E00091F17 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +72,21 @@
 		332D141820484D9F00091F17 /* ComposableCollectionViews */ = {
 			isa = PBXGroup;
 			children = (
+				332D143920484E8700091F17 /* BasicDataSource.swift */,
+				332D142E20484DC000091F17 /* BridgedCollectionViewDataSource.swift */,
+				332D143120484DC100091F17 /* CollectionViewDataSource.swift */,
+				332D142C20484DC000091F17 /* ComposedDataSource.swift */,
+				332D143020484DC000091F17 /* ComposedDataSourceMapping.swift */,
+				332D142D20484DC000091F17 /* CoreDataDatasource.swift */,
+				332D142B20484DC000091F17 /* DataSource.swift */,
+				332D143B20485DFE00091F17 /* MappedCollectionViewCellProvider.swift */,
 				332D141920484D9F00091F17 /* AppDelegate.swift */,
 				332D141B20484D9F00091F17 /* ViewController.swift */,
 				332D141D20484D9F00091F17 /* Main.storyboard */,
 				332D142020484D9F00091F17 /* Assets.xcassets */,
 				332D142220484D9F00091F17 /* LaunchScreen.storyboard */,
 				332D142520484D9F00091F17 /* Info.plist */,
+				332D143D2048752E00091F17 /* LICENSE */,
 			);
 			path = ComposableCollectionViews;
 			sourceTree = "<group>";
@@ -125,6 +152,7 @@
 			files = (
 				332D142420484D9F00091F17 /* LaunchScreen.storyboard in Resources */,
 				332D142120484D9F00091F17 /* Assets.xcassets in Resources */,
+				332D143E2048752E00091F17 /* LICENSE in Resources */,
 				332D141F20484D9F00091F17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +164,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332D143320484DC100091F17 /* ComposedDataSource.swift in Sources */,
+				332D143220484DC100091F17 /* DataSource.swift in Sources */,
+				332D143720484DC100091F17 /* ComposedDataSourceMapping.swift in Sources */,
+				332D143820484DC100091F17 /* CollectionViewDataSource.swift in Sources */,
+				332D143C20485DFE00091F17 /* MappedCollectionViewCellProvider.swift in Sources */,
+				332D143420484DC100091F17 /* CoreDataDatasource.swift in Sources */,
 				332D141C20484D9F00091F17 /* ViewController.swift in Sources */,
+				332D143A20484E8700091F17 /* BasicDataSource.swift in Sources */,
 				332D141A20484D9F00091F17 /* AppDelegate.swift in Sources */,
+				332D143520484DC100091F17 /* BridgedCollectionViewDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
